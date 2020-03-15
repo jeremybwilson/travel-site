@@ -1,0 +1,23 @@
+:root {
+  --main-bg-color: orange;
+  --main-back-blue: #2f5572;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* background-color: var(--main-bg-color); */
+  color: var(--main-back-blue);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: $mainOrange;
+}
