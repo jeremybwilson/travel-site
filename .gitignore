@@ -29,3 +29,5 @@ nbproject
 _notes
 dwsync.xml
 package.json
+/src/template.backup.html
+/webpack.config.v1.js
