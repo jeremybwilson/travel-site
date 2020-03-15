@@ -111,36 +111,55 @@ class SiteBody extends React.Component {
               </div>
             </div>
 
-
-
           </div>
         </div>
 
-        <div id="testimonials">
-          <img src="./assets/images/icons/comment.svg" />
-          <h2>Real Testimonials</h2>
+        <div id="testimonials" className="page-section page-section--last page-section--testimonials">
+          <div className="wrapper wrapper--no-padding-until-large">
+            <h2 className="section-title section-title--blue"><img className="section-title__icon" src="./assets/images/icons/comment.svg" /> Real <span className="strong">Testimonials</span></h2>
 
-          <img src="./assets/images/testimonial-jane.jpg" />
-          <h3>Jane Doe</h3>
-          <h3>9 Time Escaper</h3>
-          <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua.&rdquo;</p>
+            <div className="row row--gutters row--equal-height-at-large row--gutters-small row--t-padding generic-content-container">
+              <div className="row__medium-4">
+                <div className="testimonial">
+                  <div className="testimonial__photo">
+                    <img sizes="160px" srcSet="assets/images/testimonial-jane.jpg 160w, assets/images/testimonial-jane-hi-dpi.jpg 320w" alt="Jane Doe"/>
+                  </div>
+                  <h3 className="testimonial__title">Jane Doe</h3>
+                  <h4 className="testimonial__subtitle">9 Time Escaper</h4>
+                  <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                  magna aliqua.&rdquo;</p>
+                  </div>
+                </div>
+              <div className="row__medium-4">
+                <div className="testimonial">
+                  <div className="testimonial__photo">
+                    <img sizes="160px" srcSet="assets/images/testimonial-john.jpg 160w, assets/images/testimonial-john-hi-dpi.jpg 320w" alt="John Smith"/>
+                  </div>
+                  <h3 className="testimonial__title">John Smith</h3>
+                  <h4 className="testimonial__subtitle">4 Time Escaper</h4>
+                  <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur.&rdquo;</p>
+                </div>
+              </div>
+              
+              <div className="row__medium-4">
+                <div className="testimonial testimonial--last">
+                  <div className="testimonial__photo">
+                    <img sizes="160px" srcSet="assets/images/testimonial-cat.jpg 160w, assets/images/testimonial-cat-hi-dpi.jpg 320w" alt="Cat McKitty"/>
+                  </div>
+                  <h3 className="testimonial__title">Cat McKitty</h3>
+                  <h4 className="testimonial__subtitle">6 Time Escaper</h4>
+                  <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&rdquo;</p>
+                </div>
+              </div>
+            </div>
 
-          <img src="./assets/images/testimonial-john.jpg" />
-          <h3>John Smith</h3>
-          <h3>4 Time Escaper</h3>
-          <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            Lorem ipsum dolor sit amet, consectetur.&rdquo;</p>
-
-          <img src="./assets/images/testimonial-cat.jpg" />
-          <h3>Cat McKitty</h3>
-          <h3>6 Time Escaper</h3>
-          <p>&ldquo;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.&rdquo;</p>
+          </div>
         </div>
       </React.Fragment>
     );

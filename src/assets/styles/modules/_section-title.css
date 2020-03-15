@@ -10,6 +10,10 @@
     font-weight: 400;
   }
   
+  &--blue {
+    color: $mainBlue;
+  }
+  
   &__icon {
     display: block;
     margin-left: auto;
@@ -17,6 +21,8 @@
     margin-bottom: .6rem;
     
     @mixin tabletAndUp{
+      position: relative;
+      top: 10px;
       margin-right: .5rem;
       margin-left: 0;
       margin-bottom: 0;

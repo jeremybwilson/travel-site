@@ -12,8 +12,8 @@
  $lap-and-desk:     'screen and (min-width: 1024px) and (max-width: 1679px)';
  $wide-and-up:      'screen and (min-width: 1680px)';
  
-@define-mixin phone {
-  @media screen and (max-width: 767px) {
+@define-mixin atSmall {
+  @media screen and (min-width: 530px) and (max-width: 767px) {
     @mixin-content;
   }
 }
