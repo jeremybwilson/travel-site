@@ -2,8 +2,10 @@ import React from 'react';
 
 const Footer = (props) => {
   return(
-    <footer>
-      <p>Copyright &copy; 2020 Clear View Escapes. All rights reserved. <a href="#" className="btn btn--orange">Get in Touch</a></p>
+    <footer className="site-footer">
+      <div className="wrapper">
+        <p><span className="site-footer__text">Copyright &copy; 2020 Clear View Escapes. All rights reserved.</span> <a href="#" className="btn btn--orange">Get in Touch</a></p>
+      </div>
       {/* <!-- Leave this commented out HTML here until you need it for an upcoming "modal" lesson -->
       <div className="modal">
         <div className="modal__inner">
