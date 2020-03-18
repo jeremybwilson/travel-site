@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 class App extends React.Component {
   render(){
-    console.log(`.:: DEBUG ::.  Inside the App component`);
+    // console.log(`.:: DEBUG ::.  Inside the App component`);
     return(
       <React.Fragment>
         <Header />
